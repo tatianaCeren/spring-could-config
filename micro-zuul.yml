@@ -1,9 +1,19 @@
 zuul:
   routes:
-    consult-greetings:
-      path: /nombre de la ruta/**
-      serviceId: htc-ea-spring-eurek-services
+   MicroA-Config:
+      path: /greeting/
+      serviceId: MicroA-Config
       stripPrefix: false
+   Microb-Config:
+      path: /greeting/
+      serviceId: Microb-Config
+      stripPrefix: false
+   MicroA-Config:
+      path: /greeting/
+      serviceId: Microc-Config
+      stripPrefix: false
+   
+   
       
 
 # Discovery Server Access
