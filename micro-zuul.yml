@@ -1,3 +1,11 @@
+zuul:
+  routes:
+    consult-greetings:
+      path: /nombre de la ruta/**
+      serviceId: htc-ea-spring-eurek-services
+      stripPrefix: false
+      
+
 # Discovery Server Access
 eureka:
   client:
@@ -6,4 +14,8 @@ eureka:
       defaultZone: http://localhost:1111/eureka/
  
 server:
-  port: 8080   # HTTP (Tomcat) port
+  port: 5555   # HTTP (Tomcat) port
+  
+spring:
+ application:
+    name:  htc-ea-spring-zuul-services
