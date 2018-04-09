@@ -1,6 +1,6 @@
 # HTTP Server
 server:  
-  port: 0   # HTTP port
+  port: 2020   # HTTP port
 
 # Discovery Server Access
 eureka:  
