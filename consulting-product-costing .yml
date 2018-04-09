@@ -4,10 +4,10 @@ server:
 eureka:  
   client:
     serviceUrl:
-      defaultZone: http://discovery-server:1111/eureka/
+      defaultZone: http://localhost:1111/eureka/
 
 cygnus:  
   sadr:
     name: sadr-service
-    pingUrl: http://${cygnus.sadr.name}/sadr/ping/
+    pingUrl: http://${cygnus.product costing register.name}/product costing register/ping/
 
