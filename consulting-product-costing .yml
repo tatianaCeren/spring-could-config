@@ -1,4 +1,4 @@
-      # HTTP Server
+# HTTP Server
 server:  
   port: 0   # HTTP port
 
@@ -6,5 +6,5 @@ server:
 eureka:  
   client:
     serviceUrl:
-defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://localhost:1111/eureka/
 
