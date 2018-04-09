@@ -6,7 +6,7 @@ zuul:
       stripPrefix: false
    Microb-Config:
       path: /Saludo/**
-      serviceId: Microb-Config
+      serviceId: microb-config
       stripPrefix: false
    MicroA-Config:
       path: /comoestan/**
