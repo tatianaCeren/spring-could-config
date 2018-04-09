@@ -8,6 +8,6 @@ eureka:
 
 cygnus:  
   sadr:
-    name: sadr-service
+    name: product costing register
     pingUrl: http://${cygnus.product costing register.name}/product costing register/ping/
 
