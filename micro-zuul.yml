@@ -1,0 +1,9 @@
+# Discovery Server Access
+eureka:
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+ 
+server:
+  port: 8080   # HTTP (Tomcat) port
