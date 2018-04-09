@@ -1,8 +1,8 @@
 zuul:
   routes:
-   MicroA-Config:
+   microa-config:
       path: /greeting/**
-      serviceId: MicroA-Config
+      serviceId: microa-config
       stripPrefix: false
    Microb-Config:
       path: /Saludo/**
@@ -10,7 +10,7 @@ zuul:
       stripPrefix: false
    MicroA-Config:
       path: /comoestan/**
-      serviceId: Microc-Config
+      serviceId: Microc-config
       stripPrefix: false
    
    
