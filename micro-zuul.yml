@@ -9,7 +9,7 @@ zuul:
       serviceId: Microb-Config
       stripPrefix: false
    MicroA-Config:
-      path: /greeting/
+      path: /comoestan/
       serviceId: Microc-Config
       stripPrefix: false
    
