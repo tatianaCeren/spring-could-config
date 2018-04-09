@@ -5,7 +5,7 @@ zuul:
       serviceId: MicroA-Config
       stripPrefix: false
    Microb-Config:
-      path: /greeting/
+      path: /Saludo/
       serviceId: Microb-Config
       stripPrefix: false
    MicroA-Config:
