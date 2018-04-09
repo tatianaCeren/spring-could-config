@@ -1,15 +1,15 @@
 zuul:
   routes:
    MicroA-Config:
-      path: /greeting/
+      path: /greeting/**
       serviceId: MicroA-Config
       stripPrefix: false
    Microb-Config:
-      path: /Saludo/
+      path: /Saludo/**
       serviceId: Microb-Config
       stripPrefix: false
    MicroA-Config:
-      path: /comoestan/
+      path: /comoestan/**
       serviceId: Microc-Config
       stripPrefix: false
    
