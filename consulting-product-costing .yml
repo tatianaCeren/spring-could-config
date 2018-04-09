@@ -1,10 +1,13 @@
-# HTTP Server
 server:  
-  port: 2020   # HTTP port
+  port: ${PORT:2222}
 
-# Discovery Server Access
 eureka:  
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://discovery-server:1111/eureka/
+
+cygnus:  
+  sadr:
+    name: sadr-service
+    pingUrl: http://${cygnus.sadr.name}/sadr/ping/
 
