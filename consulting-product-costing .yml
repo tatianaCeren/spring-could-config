@@ -6,8 +6,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
-cygnus:  
-  sadr:
-    name: product costing register
-    pingUrl: http://${cygnus.product costing register.name}/product costing register/ping/
 
