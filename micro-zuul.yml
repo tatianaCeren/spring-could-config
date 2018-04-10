@@ -10,7 +10,7 @@ zuul:
       stripPrefix: false
    MicroA-Config:
       path: /comoestan/**
-      serviceId: Microc-config
+      serviceId: microc-config
       stripPrefix: false
    
    
