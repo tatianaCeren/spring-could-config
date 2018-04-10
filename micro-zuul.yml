@@ -8,7 +8,7 @@ zuul:
       path: /Saludo/**
       serviceId: microb-config
       stripPrefix: false
-   MicroA-Config:
+   microc-Config:
       path: /comoestan/**
       serviceId: microc-config
       stripPrefix: false
