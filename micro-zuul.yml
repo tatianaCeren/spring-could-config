@@ -1,7 +1,7 @@
 zuul:
   routes:
    microa-config:
-      path: /greeting/**
+      path: /registercosting/**
       serviceId: microa-config
       stripPrefix: false
    Microb-Config:
