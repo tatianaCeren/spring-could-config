@@ -8,11 +8,5 @@ eureka:
       
       
 # Access to the data base
-spring:
-  datasource:
-    driverClassName: org.postgresql.Driver
-    password: 123456
-    plataform: postgres
-    url: jdbc:postgresql://localhost:5432/ProductCosting
-username: postgres
+
 
