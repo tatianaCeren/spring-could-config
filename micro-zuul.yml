@@ -13,9 +13,6 @@ zuul:
       serviceId: microc-service
       stripPrefix: false
    
-   
-      
-
 # Discovery Server Access
 eureka:
   client:
