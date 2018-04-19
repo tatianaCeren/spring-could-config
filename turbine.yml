@@ -10,7 +10,7 @@ turbine:
     clusterConfig: MICRO-ZUUL
   appConfig: micro-zuul
   
-  eureka:
+ eureka:
   client:
-     serviceUrl:
-  defaultZone: http://localhost:8761/eureka/
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
