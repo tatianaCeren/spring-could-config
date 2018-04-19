@@ -2,7 +2,7 @@ zuul:
   routes:
    microa-config:
       path: /registercosting/**
-      serviceId: microa-config
+      serviceId: MICROA-CONFIG
       stripPrefix: false
    Microb-Config:
       path: /Saludo/**
