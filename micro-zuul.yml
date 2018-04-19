@@ -28,4 +28,4 @@ server:
   
 spring:
  application:
-    name:  htc-ea-spring-zuul-services
+    name:  micro-zuul
