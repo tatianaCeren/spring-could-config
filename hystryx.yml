@@ -1,7 +1,11 @@
-server:  
-  port: 4444
-
-eureka:  
-  client:
-    serviceUrl:
-defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+     name: htc-ea-turbine-dashboard # Service registers under this name
+ 
+server:
+  port: 3336   # HTTP (Tomcat) port
+  
+turbine:
+  aggregator:
+    clusterConfig: HTC-EA-ZULL-SERVICES
+  appConfig: htc-ea-zuul-services
