@@ -9,3 +9,8 @@ turbine:
   aggregator:
     clusterConfig: MICRO-ZUUL
   appConfig: micro-zuul
+  
+  eureka:
+  client:
+     serviceUrl:
+defaultZone: http://localhost:8761/eureka/
