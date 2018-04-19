@@ -1,12 +1,6 @@
-# Spring properties
-spring:
-  application:
-     name: hystrix  # Service registers under this name
- 
-server:
-  port: 4444   # HTTP (Tomcat) port
-  
-# Discovery Server Access
+server:  
+  port: ${PORT:8071}
+
 eureka:  
   client:
     serviceUrl:
