@@ -1,0 +1,11 @@
+spring:
+  application:
+     name: turbine-dashboard # Service registers under this name
+ 
+server:
+  port: 3336   # HTTP (Tomcat) port
+  
+turbine:
+  aggregator:
+    clusterConfig: MICRO-ZUUL
+  appConfig: micro-zuul
