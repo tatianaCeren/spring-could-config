@@ -1,10 +1,5 @@
-# Spring properties
-spring:
-  application:
-     name: hystrixser  # Service registers under this name
- 
-server:
-  port: 4444   # HTTP (Tomcat) port
+server:  
+  port: ${PORT:8072}
 
 eureka:  
   client:
