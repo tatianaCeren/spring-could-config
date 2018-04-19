@@ -1,8 +1,15 @@
+
+# Spring properties
 spring:
   application:
-     name: histrix # Service registers under this name
+     name: hystrix-dashboard-service  # Service registers under this name
  
 server:
-  port: 3336   # HTTP (Tomcat) port
+  port: 4444   # HTTP (Tomcat) port
+
+eureka:  
+  client:
+    serviceUrl:
+defaultZone: http://localhost:8761/eureka/
   
 
