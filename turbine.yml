@@ -1,9 +1,10 @@
+# Spring properties
 spring:
   application:
-     name: turbine-dashboard # Service registers under this name
+     name: hystrix-dashboard-service  # Service registers under this name
  
 server:
-  port: 3336   # HTTP (Tomcat) port
+  port: 4444   # HTTP (Tomcat) port
   
 turbine:
   aggregator:
