@@ -9,7 +9,7 @@ zuul:
       serviceId: microb-config
       stripPrefix: false
    microc-Config:
-      path: /comoestan/**
+      path: /ReadFile/**
       serviceId: microc-service
       stripPrefix: false
    
