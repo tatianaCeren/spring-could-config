@@ -5,7 +5,7 @@ zuul:
       serviceId: MICROA-CONFIG
       stripPrefix: false
    Microb-Config:
-      path: /Saludo/**
+      path: /consult/**
       serviceId: microb-config
       stripPrefix: false
    microc-Config:
