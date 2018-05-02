@@ -13,7 +13,7 @@ spring:
     driverClassName: org.postgresql.Driver
     password: 123456
     plataform: postgres
-    url: jdbc:postgresql://localhost:5432/ProductCosting
+    url: jdbc:postgresql://localhost:5432/ProductCostingV2
     username: postgres
 
 
