@@ -16,3 +16,5 @@ spring:
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
     username: postgres
+values:
+  Cesc: 1.05
