@@ -18,3 +18,4 @@ spring:
     username: postgres
 values:
   Cesc: 1.05
+  Iva: 1.13
