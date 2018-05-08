@@ -1,5 +1,5 @@
 server:  
-  port: 8763   # HTTP port
+  port: 8765   # HTTP port
 
 logging:  
   file: logs/${spring.application.name}.log
