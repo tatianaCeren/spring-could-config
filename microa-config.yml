@@ -15,12 +15,7 @@ spring:
     password: 123456
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
-    username: postgres
-values:
-  cesc: 1.05
-  iva: 1.13
-  pemploye: 1.15
-  pwholesale: 1.25
-  pschool: 1.35
-  psalesroom: 1.45
+username: postgres
+
+
   
