@@ -1,12 +1,11 @@
-# HTTP Server
 server:  
-  port: 0   # HTTP port
+  port: ${PORT:8071}
 
-# Discovery Server Access
 eureka:  
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
+      
       
 # Access to the data base
 spring:
@@ -16,6 +15,5 @@ spring:
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
 username: postgres
-
 
   
