@@ -1,11 +1,10 @@
 server:  
-  port: ${PORT:8071}
+  port: ${PORT:8072}
 
 eureka:  
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
-      
+      defaultZone: http://localhost:8080/eureka/
       
 # Access to the data base
 spring:
@@ -14,6 +13,6 @@ spring:
     password: 123456
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
-    username: postgres
+username: postgres
 
 
