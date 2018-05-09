@@ -1,5 +1,6 @@
+
 server:  
-  port: ${PORT:8072}
+  port: 0   # HTTP port
 
 eureka:  
   client:
