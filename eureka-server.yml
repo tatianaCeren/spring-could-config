@@ -1,5 +1,5 @@
 server:  
-  port: 8081   # HTTP port
+  port: 1111   # HTTP port
 
 logging:  
   file: logs/${spring.application.name}.log
@@ -7,3 +7,4 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     com.atsistemas: 'DEBUG'
+
