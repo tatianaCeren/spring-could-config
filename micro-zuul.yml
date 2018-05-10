@@ -17,7 +17,7 @@ zuul:
 eureka:
   client:
    serviceUrl:
-     defaultZone: http://localhost:8761/eureka/
+     defaultZone: http://localhost:1111/eureka/
  
 server:
   port: 5555   # HTTP (Tomcat) port
