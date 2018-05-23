@@ -1,4 +1,3 @@
-
 server:  
   port: 0   # HTTP port
 
@@ -14,6 +13,6 @@ spring:
     password: 123456
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
-    username: postgres
+username: postgres
 
 
