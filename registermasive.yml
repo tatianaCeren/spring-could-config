@@ -14,6 +14,3 @@ spring:
     plataform: postgres
     url: jdbc:postgresql://localhost:5432/ProductCostingV2
 username: postgres
-
-double iva = 0.13;
-double cesc = 0.05;
