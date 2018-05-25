@@ -16,7 +16,7 @@ spring:
     username: postgres
     
   # values taxses
-iva:  0.13
+iva: 0.13
 cesc: 0.05
 
 # value validations
